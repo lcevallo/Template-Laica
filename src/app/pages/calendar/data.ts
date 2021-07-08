@@ -52,6 +52,13 @@ const calendarEvents = [
         start: new Date().setDate(new Date().getDate() + 7),
         end: new Date().setDate(new Date().getDate() + 8),
         className: 'bg-primary text-white'
+    },
+    {
+        id: 5,
+        title: 'Long Event2',
+        start: new Date().setDate(new Date().getDate() + 2),
+        end: new Date().setDate(new Date().getDate() + 2),
+        className: 'bg-primary text-white'
     }
 ];
 
